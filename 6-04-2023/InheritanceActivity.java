@@ -9,8 +9,7 @@ class Employee{
 	double specialAllowance =250.80;
 	double Hra = 1000.50;
 	
-	Employee(long employeeId , String employeeName , 
-			String employeeAddress , long employeePhone) {
+	Employee(long employeeId , String employeeName , String employeeAddress , long employeePhone) {
 		
 		this.employeeId=employeeId;
 		this.employeeName=employeeName;
@@ -53,11 +52,11 @@ class Employee{
 		}
 		
 		public void display() {
-			System.out.println("EmpId : " +employeeId);
-			System.out.println("EmpId : " +employeeName);
-			System.out.println("EmpId : " +employeeAddress);
-			System.out.println("EmpId : " +employeePhone);
-			System.out.println("EmpId : " +basicSalary);
+			System.out.println("Employee Id : " +employeeId);
+			System.out.println("Employee Name : " +employeeName);
+			System.out.println("Employee Address  : " +employeeAddress);
+			System.out.println("Employee Contact : " +employeePhone);
+			System.out.println("Employee Salary : " +basicSalary);
 			
 		}
 		
@@ -81,11 +80,11 @@ class Employee{
 		}	
 		
 		public void display() {
-			System.out.println("EmpId : " +employeeId);
-			System.out.println("EmpId : " +employeeName);
-			System.out.println("EmpId : " +employeeAddress);
-			System.out.println("EmpId : " +employeePhone);
-			System.out.println("EmpId : " +basicSalary);
+			System.out.println("Employee Id : " +employeeId);
+			System.out.println("Employee Name : " +employeeName);
+			System.out.println("Employee Address  : " +employeeAddress);
+			System.out.println("Employee Contact : " +employeePhone);
+			System.out.println("Employee Salary : " +basicSalary);
 			
 		}	
 		
