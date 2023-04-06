@@ -101,9 +101,10 @@ public class InheritanceActivity {
 		System.out.println();
 		System.out.print("Salary of Manager after Transport Allowance : "); mg.calculateTransportAllowance(65000);
 		System.out.println();
-	    mg.display();
+	        mg.display();
 	    
-	    System.out.println();
+	        System.out.println();
+		System.out.println();
 		
 		
 		Trainee tr = new Trainee(29846, "Jack", "Mumbai India", 442085l , 45000);
